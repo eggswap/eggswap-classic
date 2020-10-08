@@ -1,7 +1,7 @@
 import {useCallback} from 'react'
 
 import useSushi from './useSushi'
-import {useWallet} from 'use-wallet'
+import {useWallet} from 'use-wallet-exp'
 
 import {enter, getXSushiStakingContract} from '../sushi/utils'
 

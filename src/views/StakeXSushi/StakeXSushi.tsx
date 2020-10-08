@@ -1,6 +1,6 @@
 import React, {useEffect, useMemo, useState} from 'react'
 import styled from 'styled-components'
-import {useWallet} from 'use-wallet'
+import {useWallet} from 'use-wallet-exp'
 import {provider} from 'web3-core'
 import Spacer from '../../components/Spacer'
 import useSushi from '../../hooks/useSushi'
@@ -17,7 +17,7 @@ const StakeXSushi: React.FC = () => {
   const {
     tokenAddress,
   } = {
-    tokenAddress: contractAddresses.xSushi[1],
+    tokenAddress: contractAddresses.xSushi[2],
   }
 
   const [totalSupply, setTotalSupply] = useState<BigNumber>()

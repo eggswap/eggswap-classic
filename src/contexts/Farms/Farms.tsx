@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react'
 
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'use-wallet-exp'
 import useSushi from '../../hooks/useSushi'
 
 import { bnToDec } from '../../utils'
