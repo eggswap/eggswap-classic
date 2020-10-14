@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import chef from '../../assets/img/chef.png'
+import chef from '../../assets/img/chicken.png'
 import Button from '../../components/Button'
 import Container from '../../components/Container'
 import Page from '../../components/Page'
@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={<img src={chef} height={120} />}
-        title="MasterChef is Ready"
-        subtitle="Stake SushiSwap LP tokens to claim your very own yummy SUSHI!"
+        title="Chicken is Ready"
+        subtitle="Stake EggSwap LP tokens to claim golden EGGs!"
       />
 
       <Container>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: SUSHI-ETH SLP token pool yields 4.8x more token
+        🏆<b>Pro Tip</b>: EGG-EXP SLP token pool yields 4.8x more token
         rewards per block.
       </StyledInfo>
       <Spacer size="lg" />

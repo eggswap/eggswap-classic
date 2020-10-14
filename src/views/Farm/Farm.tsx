@@ -78,12 +78,12 @@ const Farm: React.FC = () => {
         <Spacer size="lg" />
         <StyledInfo>
           ⭐️ Every time you stake and unstake LP tokens, the contract will
-          automagically harvest SUSHI rewards for you!
+          automagically harvest EGG rewards for you!
         </StyledInfo>
         <Spacer size="md" />
         <StyledLink
           target="__blank"
-          href={`https://sushiswap.vision/pair/${lpTokenAddress}`}
+          href={`https://info.eggs.cool/pair/${lpTokenAddress}`}
         >
           {lpTokenName} Info
         </StyledLink>

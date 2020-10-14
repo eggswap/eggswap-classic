@@ -57,7 +57,7 @@ export const getFarms = (sushi) => {
           tokenAddress,
           tokenSymbol,
           tokenContract,
-          earnToken: 'sushi',
+          earnToken: 'egg',
           earnTokenAddress: sushi.contracts.sushi.options.address,
           icon,
         }),
@@ -74,7 +74,7 @@ export const getPoolWeight = async (masterChefContract, pid) => {
 }
 
 export const getEarned = async (masterChefContract, pid, account) => {
-  return masterChefContract.methods.pendingSushi(pid, account).call()
+  return masterChefContract.methods.pendingEgg(pid, account).call()
 }
 
 export const getTotalLPWethValue = async (

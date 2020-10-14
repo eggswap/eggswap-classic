@@ -2,7 +2,7 @@ import React from 'react'
 import {Route, Switch, useRouteMatch} from 'react-router-dom'
 import {useWallet} from 'use-wallet-exp'
 
-import chef from '../../assets/img/chef.png'
+import chef from '../../assets/img/chicken.png'
 
 import Button from '../../components/Button'
 import Page from '../../components/Page'
@@ -24,8 +24,8 @@ const Staking: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={chef} height="120"/>}
-                subtitle="Welcome to the Sushi Bar, stake Sushi to earn Sushi."
-                title="Irasshaimase!"
+                subtitle="Welcome to the Chicken Coop, stake Eggs to earn Eggs."
+                title="Welcome!"
               />
             </Route>
             <StakeXSushi/>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Switch, useRouteMatch } from 'react-router-dom'
 import { useWallet } from 'use-wallet-exp'
 
-import chef from '../../assets/img/chef.png'
+import chef from '../../assets/img/chicken.png'
 
 import Button from '../../components/Button'
 import Page from '../../components/Page'
@@ -27,7 +27,7 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={chef} height="120" />}
-                subtitle="Earn SUSHI tokens by staking SushiSwap V2 SLP Tokens. Note: Current APY does not include 2/3rd SUSHI emission that is locked and will be retroactively disbursed at a later date."
+                subtitle="Earn EGG tokens by staking EggSwap V2 SLP Tokens."
                 title="Select Your Favorite Dishes"
               />
               <FarmCards />
