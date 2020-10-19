@@ -9,19 +9,19 @@ const Nav: React.FC = () => {
         Home
       </StyledLink>
       <StyledLink exact activeClassName="active" to="/farms">
-        Menu
+        Farms
       </StyledLink>
       <StyledLink exact activeClassName="active" to="/staking">
         Staking
       </StyledLink>
       <StyledAbsoluteLink
-        href="https://www.eggs.cool"
+        href="https://www.eggs.cool/ex/"
         target="_blank"
       >
         Exchange
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://help.sushidocs.com/"
+        href="https://docs.eggs.cool/"
         target="_blank"
       >
         About

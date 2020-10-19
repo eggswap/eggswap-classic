@@ -41,11 +41,11 @@ export const addressMap = {
 export const contractAddresses = {
   sushi: {
     1: '0x6b3595068778dd592e39a122f4f5a5cf09c90fe2',
-    2: '0x5AB20632Bad41463680975D3AaC3320F820F1fA1'
+    2: '0x05E58e93b35203fdF710cB176E015be3122612eC'
   },
   masterChef: {
     1: '0xc2edad668740f1aa35e4d8f227fb8e17dca888cd',
-    2: '0x60af21B16cebA8dd5216d407bCE401740140A94C'
+    2: '0x1799F496637F3b54C7715f6a1af871966E86bC6b'
   },
   weth: {
     1: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
@@ -53,7 +53,7 @@ export const contractAddresses = {
   },
   xSushi: {
     1: '0x8798249c2e607446efb7ad49ec89dd1865ff4272',
-    2: '0x139C12444c63F9B62214D7c1bB8780AB618E6FB3'
+    2: '0xb83F274DC360856697f1A3A7f9808E94BD9Ea08b'
   }
 }
 
@@ -62,11 +62,11 @@ export const supportedPools = [
     pid: 0,
     lpAddresses: {
       1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
-      2: '0xA56cD5eCa1066be998d2f09DB7A1903E0E47d05d'
+      2: '0xEBEBB7c541640a996805cb0fC8C17f9F66A3E28b'
     },
     tokenAddresses: {
       1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
-      2: '0x5AB20632Bad41463680975D3AaC3320F820F1fA1'
+      2: '0x05E58e93b35203fdF710cB176E015be3122612eC'
     },
     name: 'EGGs',
     symbol: 'EGG-WEXP UNI-V2 LP',
@@ -92,15 +92,15 @@ export const supportedPools = [
     pid: 2,
     lpAddresses: {
       1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
-      2: '0xc150686B8b24f0e08f1d94773d0355427C25ef0e'
+      2: '0x90390A27DBe65991cED136Ca6F95fd5953C5e1B8'
     },
     tokenAddresses: {
       1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
-      2: '0x9D2761A714b5b2EfA325a8a3eee21BE32AACeB4A'
+      2: '0x4f5ec5a69dbe12c48ca1edc9c52b1e8896aed932'
     },
-    name: 'LOVE',
-    symbol: 'LOVE-WEXP UNI-V2 LP',
-    tokenSymbol: 'LOVE',
+    name: 'PEX',
+    symbol: 'PEX-WEXP UNI-V2 LP',
+    tokenSymbol: 'PEX',
     icon: '❤️️ ',
   },
   {
@@ -118,4 +118,19 @@ export const supportedPools = [
     tokenSymbol: 'T64',
     icon: '❤️️ ',
   },
+  {
+    pid: 4,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0xc150686B8b24f0e08f1d94773d0355427C25ef0e'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x9D2761A714b5b2EfA325a8a3eee21BE32AACeB4A'
+    },
+    name: 'LOVE',
+    symbol: 'LOVE-WEXP UNI-V2 LP',
+    tokenSymbol: 'LOVE',
+    icon: '❤️️ ',
+  }
 ]
