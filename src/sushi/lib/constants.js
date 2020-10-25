@@ -54,22 +54,26 @@ export const contractAddresses = {
   xSushi: {
     1: '0x8798249c2e607446efb7ad49ec89dd1865ff4272',
     2: '0x56C28AA1aE5Be73fdbd73634736AE9BD1C3b78Fb'
+  },
+  burnToMint: {
+    1: '0x8798249c2e607446efb7ad49ec89dd1865ff4272',
+    2: '0x5AD51ce8073ff3aBf48a2966f720eA4e09ec1648'
   }
 }
 
 export const supportedPools = [
   {
-    pid: 0,
+    pid: 5,
     lpAddresses: {
       1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
-      2: '0xEBEBB7c541640a996805cb0fC8C17f9F66A3E28b'
+      2: '0xd985c19c547386D99eCA85f86c0aFcf257CE6982'
     },
     tokenAddresses: {
       1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
-      2: '0x05E58e93b35203fdF710cB176E015be3122612eC'
+      2: '0xd1365a5Af713cde10C6ac3fB9EDBB2bBbd4B2Ba2'
     },
     name: 'EGGs',
-    symbol: 'EGG-WEXP UNI-V2 LP',
+    symbol: 'EGG-WEXP ELP',
     tokenSymbol: 'EGG',
     icon: '🥚 ',
   },
@@ -84,7 +88,7 @@ export const supportedPools = [
       2: '0x3b4cfcc4532eec161860cb6544f49947544d940d'
     },
     name: 'Tokenlab',
-    symbol: 'LAB-WEXP UNI-V2 LP',
+    symbol: 'LAB-WEXP ELP',
     tokenSymbol: 'LAB',
     icon: '🥚 ',
   },
@@ -99,7 +103,7 @@ export const supportedPools = [
       2: '0x4f5ec5a69dbe12c48ca1edc9c52b1e8896aed932'
     },
     name: 'PEX',
-    symbol: 'PEX-WEXP UNI-V2 LP',
+    symbol: 'PEX-WEXP ELP',
     tokenSymbol: 'PEX',
     icon: '❤️️ ',
   },
@@ -114,7 +118,7 @@ export const supportedPools = [
       2: '0x72332c512bf2dA5A7Cd11752b380F7d8fcBba847'
     },
     name: 'T64',
-    symbol: 'T64-WEXP UNI-V2 LP',
+    symbol: 'T64-WEXP ELP',
     tokenSymbol: 'T64',
     icon: '❤️️ ',
   },
@@ -129,7 +133,7 @@ export const supportedPools = [
       2: '0x9D2761A714b5b2EfA325a8a3eee21BE32AACeB4A'
     },
     name: 'LOVE',
-    symbol: 'LOVE-WEXP UNI-V2 LP',
+    symbol: 'LOVE-WEXP ELP',
     tokenSymbol: 'LOVE',
     icon: '❤️️ ',
   }

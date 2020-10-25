@@ -5,6 +5,8 @@ import XSushiAbi from './abi/xsushi.json'
 import SushiAbi from './abi/sushi.json'
 import UNIV2PairAbi from './abi/uni_v2_lp.json'
 import WETHAbi from './abi/weth.json'
+import BurnToMintAbi from './abi/BurnToMintAbi.json'
+
 import {
   contractAddresses,
   SUBTRACT_GAS_LIMIT,
@@ -26,6 +28,7 @@ export class Contracts {
     this.masterChef = new this.web3.eth.Contract(MasterChefAbi)
     this.xSushiStaking = new this.web3.eth.Contract(XSushiAbi)
     this.weth = new this.web3.eth.Contract(WETHAbi)
+    this.burnToMint = new this.web3.eth.Contract(BurnToMintAbi)
 
     this.pools = supportedPools.map((pool) =>
       Object.assign(pool, {
@@ -51,6 +54,7 @@ export class Contracts {
     setProvider(this.masterChef, contractAddresses.masterChef[networkId])
     setProvider(this.xSushiStaking, contractAddresses.xSushi[networkId])
     setProvider(this.weth, contractAddresses.weth[networkId])
+    setProvider(this.burnToMint, contractAddresses.burnToMint[networkId])
 
     this.pools.forEach(
       ({ lpContract, lpAddress, tokenContract, tokenAddress }) => {

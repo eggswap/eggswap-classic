@@ -34,6 +34,10 @@ export const getXSushiStakingContract = (sushi) => {
   return sushi && sushi.contracts && sushi.contracts.xSushiStaking
 }
 
+export const getBurnContract = (sushi) => {
+  return sushi && sushi.contracts && sushi.contracts.burnToMint
+}
+
 export const getFarms = (sushi) => {
   return sushi
     ? sushi.contracts.pools.map(

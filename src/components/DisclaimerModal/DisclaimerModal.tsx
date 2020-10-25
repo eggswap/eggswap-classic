@@ -51,7 +51,7 @@ const DisclaimerModal: React.FC<DisclaimerModal> = ({
     } else {
       return (
         <div>
-          <StyledLink target="_blank" href="https://sushiswap.fi">
+          <StyledLink target="_blank" href="https://eggs.cool">
             Click here to access Omakase Bar.
           </StyledLink>
         </div>
