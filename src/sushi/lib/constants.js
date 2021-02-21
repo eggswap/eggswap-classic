@@ -62,6 +62,21 @@ export const contractAddresses = {
 }
 export const supportedPools = [
   {
+    pid: 5,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0xd985c19c547386D99eCA85f86c0aFcf257CE6982'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0xd1365a5Af713cde10C6ac3fB9EDBB2bBbd4B2Ba2'
+    },
+    name: 'EGGs',
+    symbol: 'EGG-WEXP ELP',
+    tokenSymbol: 'EGG',
+    icon: '🥚 ',
+  },
+  {
     pid: 1,
     lpAddresses: {
       1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
@@ -120,21 +135,6 @@ export const supportedPools = [
     symbol: 'LOVE-WEXP ELP',
     tokenSymbol: 'LOVE',
     icon: '❤️️ ',
-  },
-  {
-    pid: 5,
-    lpAddresses: {
-      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
-      2: '0xd985c19c547386D99eCA85f86c0aFcf257CE6982'
-    },
-    tokenAddresses: {
-      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
-      2: '0xd1365a5Af713cde10C6ac3fB9EDBB2bBbd4B2Ba2'
-    },
-    name: 'EGGs',
-    symbol: 'EGG-WEXP ELP',
-    tokenSymbol: 'EGG',
-    icon: '🥚 ',
   },
   {
     pid: 6,
