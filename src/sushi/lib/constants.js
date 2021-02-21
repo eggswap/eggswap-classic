@@ -60,23 +60,7 @@ export const contractAddresses = {
     2: '0x5AD51ce8073ff3aBf48a2966f720eA4e09ec1648'
   }
 }
-
 export const supportedPools = [
-  {
-    pid: 5,
-    lpAddresses: {
-      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
-      2: '0xd985c19c547386D99eCA85f86c0aFcf257CE6982'
-    },
-    tokenAddresses: {
-      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
-      2: '0xd1365a5Af713cde10C6ac3fB9EDBB2bBbd4B2Ba2'
-    },
-    name: 'EGGs',
-    symbol: 'EGG-WEXP ELP',
-    tokenSymbol: 'EGG',
-    icon: '🥚 ',
-  },
   {
     pid: 1,
     lpAddresses: {
@@ -105,7 +89,7 @@ export const supportedPools = [
     name: 'PEX',
     symbol: 'PEX-WEXP ELP',
     tokenSymbol: 'PEX',
-    icon: '❤️️ ',
+    icon: '🍭️ ',
   },
   {
     pid: 3,
@@ -120,7 +104,7 @@ export const supportedPools = [
     name: 'T64',
     symbol: 'T64-WEXP ELP',
     tokenSymbol: 'T64',
-    icon: '❤️️ ',
+    icon: '🎁 ',
   },
   {
     pid: 4,
@@ -136,5 +120,35 @@ export const supportedPools = [
     symbol: 'LOVE-WEXP ELP',
     tokenSymbol: 'LOVE',
     icon: '❤️️ ',
+  },
+  {
+    pid: 5,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0xd985c19c547386D99eCA85f86c0aFcf257CE6982'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0xd1365a5Af713cde10C6ac3fB9EDBB2bBbd4B2Ba2'
+    },
+    name: 'EGGs',
+    symbol: 'EGG-WEXP ELP',
+    tokenSymbol: 'EGG',
+    icon: '🥚 ',
+  },
+  {
+    pid: 6,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x7eD2e1dAE2bE447d0153C03e1e63dD27E0F5198c'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x0D14F385647E66283E8E5D9c567296751Ac7ee7D'
+    },
+    name: 'WAGMI',
+    symbol: 'WAGMI-WEXP ELP',
+    tokenSymbol: 'WAGMI',
+    icon: '🦭 ',
   }
 ]
