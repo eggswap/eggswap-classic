@@ -89,7 +89,7 @@ export const supportedPools = [
     name: 'Tokenlab',
     symbol: 'LAB-WEXP ELP',
     tokenSymbol: 'LAB',
-    icon: '🥚 ',
+    icon: '🍄 ',
   },
   {
     pid: 2,
@@ -150,5 +150,35 @@ export const supportedPools = [
     symbol: 'WAGMI-WEXP ELP',
     tokenSymbol: 'WAGMI',
     icon: '🦭 ',
+  },
+  {
+    pid: 7,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x442DB81f31A8AbF774d4DE3154744Ea61cFAa73f'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x54451dBE4B925aa5E312E232c6Cba2EAA0d98169'
+    },
+    name: 'SVIT',
+    symbol: 'SVIT-WEXP ELP',
+    tokenSymbol: 'SVIT',
+    icon: '🍇 ',
+  },
+  {
+    pid: 8,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x2e986C6A33518915649406cAe035979249d46642'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x87Eb2fdF607B46F324984771FfDF2A0396139bDf'
+    },
+    name: 'PRM',
+    symbol: 'PRM-WEXP ELP',
+    tokenSymbol: 'PRM',
+    icon: '🍖 ',
   }
 ]
