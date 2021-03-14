@@ -179,6 +179,37 @@ export const supportedPools = [
     name: 'PRM',
     symbol: 'PRM-WEXP ELP',
     tokenSymbol: 'PRM',
-    icon: '🍖 ',
+    icon: '⛏️ ',
+  },
+  {
+    pid: 9,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0xc0E53B3D197f48D0eF550B7351173F466aB780Bb'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0xD13C89Ad0686A974afe911EbfC11C48a72F57390'
+    },
+    name: 'UBQ',
+    symbol: 'UBQ-WEXP ELP',
+    tokenSymbol: 'UBQ',
+    icon: '🌿 ',
+  },
+  ,
+  {
+    pid: 10,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x1A5192b21080A505c4bd90F8584dbCa2F24d6D75'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x097eEe28cD6Ce752e8C0Bb694cdb50669F83ab89'
+    },
+    name: 'BNB',
+    symbol: 'BNB-WEXP ELP',
+    tokenSymbol: 'BNB',
+    icon: '🐉 ',
   }
 ]
