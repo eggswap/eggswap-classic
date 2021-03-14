@@ -196,7 +196,6 @@ export const supportedPools = [
     tokenSymbol: 'UBQ',
     icon: '🌿 ',
   },
-  ,
   {
     pid: 10,
     lpAddresses: {
