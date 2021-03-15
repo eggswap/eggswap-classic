@@ -210,5 +210,20 @@ export const supportedPools = [
     symbol: 'BNB-WEXP ELP',
     tokenSymbol: 'BNB',
     icon: '🐉 ',
+  },
+  {
+    pid: 11,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x29E6a7eE4Aa395f58D2037740B7B2bA8f6b84384'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x586fc83f7610c1388ab477aba51428f9f39dfec6'
+    },
+    name: 'BTFD',
+    symbol: 'BTFD-WEXP ELP',
+    tokenSymbol: 'BTFD',
+    icon: '🦍 ',
   }
 ]
