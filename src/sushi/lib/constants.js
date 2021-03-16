@@ -206,9 +206,9 @@ export const supportedPools = [
       1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
       2: '0x097eEe28cD6Ce752e8C0Bb694cdb50669F83ab89'
     },
-    name: 'BNB',
-    symbol: 'BNB-WEXP ELP',
-    tokenSymbol: 'BNB',
+    name: 'Test BNB',
+    symbol: 'xBNB-WEXP ELP',
+    tokenSymbol: 'xBNB',
     icon: '🐉 ',
   },
   {
@@ -224,6 +224,21 @@ export const supportedPools = [
     name: 'BTFD',
     symbol: 'BTFD-WEXP ELP',
     tokenSymbol: 'BTFD',
+    icon: '🦍 ',
+  },
+  {
+    pid: 12,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x6cbDE755Af731cA91dCE6fD4211d3867a04A8ad2'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0xc1a1c16A18928d08B46ABB61d382579246c6E9E1'
+    },
+    name: 'eBNB',
+    symbol: 'eBNB-WEXP ELP',
+    tokenSymbol: 'eBNB',
     icon: '🦍 ',
   }
 ]
