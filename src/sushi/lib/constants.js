@@ -240,5 +240,35 @@ export const supportedPools = [
     symbol: 'eBNB-WEXP ELP',
     tokenSymbol: 'eBNB',
     icon: '🦍 ',
+  },
+  {
+    pid: 13,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0xb7C9E64A42Ad69e1a1654B98e129E5201d4e585C'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0xBd5870a474B7A9B112d34b24993b4F3aCF6Dd874'
+    },
+    name: 'EVLTZ',
+    symbol: 'EVLTZ-WEXP ELP',
+    tokenSymbol: 'EVLTZ',
+    icon: '💰 ',
+  },
+  {
+    pid: 14,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x7f7a3F2c1fef5ADA32c0CeC3428EB3c515a6851e'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0xE57f6bBc0fCf5b89B2d1aF54Ea4D4A1AaEa678AD'
+    },
+    name: 'AutoBurn',
+    symbol: 'EABN-WEXP ELP',
+    tokenSymbol: 'EABN',
+    icon: '🔥 ',
   }
 ]
