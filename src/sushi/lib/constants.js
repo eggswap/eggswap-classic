@@ -270,5 +270,20 @@ export const supportedPools = [
     symbol: 'EABN-WEXP ELP',
     tokenSymbol: 'EABN',
     icon: '🔥 ',
+  },
+  {
+    pid: 15,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x855aA3637853A2c294F9dF1AED68aC716Ee42416'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x7336fa672f229c7325accb5ef867b914a6062ad0'
+    },
+    name: 'ALYM',
+    symbol: 'ALYM-WEXP ELP',
+    tokenSymbol: 'ALYM',
+    icon: '🚀 ',
   }
 ]
