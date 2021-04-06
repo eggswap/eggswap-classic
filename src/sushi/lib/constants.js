@@ -239,7 +239,7 @@ export const supportedPools = [
     name: 'eBNB',
     symbol: 'eBNB-WEXP ELP',
     tokenSymbol: 'eBNB',
-    icon: '🦍 ',
+    icon: '🐰 ',
   },
   {
     pid: 13,
