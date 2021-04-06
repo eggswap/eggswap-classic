@@ -240,5 +240,65 @@ export const supportedPools = [
     symbol: 'eBNB-WEXP ELP',
     tokenSymbol: 'eBNB',
     icon: '🦍 ',
+  },
+  {
+    pid: 13,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0xb7C9E64A42Ad69e1a1654B98e129E5201d4e585C'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0xbd5870a474b7a9b112d34b24993b4f3acf6dd874'
+    },
+    name: 'Vaultz',
+    symbol: 'Vaultz-WEXP ELP',
+    tokenSymbol: 'VAULTZ',
+    icon: '🔒 ',
+  },
+  {
+    pid: 14,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x7f7a3F2c1fef5ADA32c0CeC3428EB3c515a6851e'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0xe57f6bbc0fcf5b89b2d1af54ea4d4a1aaea678ad'
+    },
+    name: 'Autoburn',
+    symbol: 'EABN-WEXP ELP',
+    tokenSymbol: 'EABN',
+    icon: '🔥 ',
+  },
+  {
+    pid: 15,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x855aA3637853A2c294F9dF1AED68aC716Ee42416'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x7336fa672f229c7325accb5ef867b914a6062ad0'
+    },
+    name: 'ALYM',
+    symbol: 'ALYM-WEXP ELP',
+    tokenSymbol: 'ALYM',
+    icon: '✨ ',
+  },
+  {
+    pid: 16,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x9bB9fB20bE2Da798db97D167df69B2C6f72311C7'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x0A5B3BE530e9Ca3158b84Ab339a3403d7E44c45f'
+    },
+    name: 'STEAK',
+    symbol: 'STEAK-WEXP ELP',
+    tokenSymbol: 'STEAK',
+    icon: '🥩 ',
   }
 ]
