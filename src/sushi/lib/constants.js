@@ -77,6 +77,36 @@ export const supportedPools = [
     icon: '🥚 ',
   },
   {
+    pid: 17,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0xAdc813bA404b01de13e4080c1B93914A0950326A'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0xecaea0babbb715357d68337ce2e8a7a2aa53034f'
+    },
+    name: 'XatruchCoin',
+    symbol: 'XTC-WEXP ELP',
+    tokenSymbol: 'XTC',
+    icon: '🇭🇳 ',
+  },
+  {
+    pid: 18,
+    lpAddresses: {
+      1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
+      2: '0x82E589B5f81722001F265EB5BFF7fc39DCf71d4f'
+    },
+    tokenAddresses: {
+      1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
+      2: '0x9c4a1b65abfa24f0f743fd544eb15a70a8d2e27f'
+    },
+    name: 'T502',
+    symbol: 'T502-WEXP ELP',
+    tokenSymbol: 'T502',
+    icon: '🇬🇹 ',
+  },
+  {
     pid: 1,
     lpAddresses: {
       1337: '0x4810f81d633a08b6e1b4b28ab652116fff53e744',
@@ -221,7 +251,7 @@ export const supportedPools = [
       1337: '0xd231d8c05f24a6d267aa198ae366d6df8e81b741',
       2: '0x586fc83f7610c1388ab477aba51428f9f39dfec6'
     },
-    name: 'BTFD',
+    name: 'BTFD (DEPRECATED)',
     symbol: 'BTFD-WEXP ELP',
     tokenSymbol: 'BTFD',
     icon: '🦍 ',
@@ -300,5 +330,5 @@ export const supportedPools = [
     symbol: 'STEAK-WEXP ELP',
     tokenSymbol: 'STEAK',
     icon: '🥩 ',
-  }
+  },
 ]
